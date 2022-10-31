@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    font-weight: 300;
+    font-family: 'Caveat', cursive;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("one.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left {
+    display: flex;
+    width: 400px;
+}
+
+.right {
+    display: flex;
+    width: 900px;
+}
+
+.catFacts{
+    margin: 40px;
+}
